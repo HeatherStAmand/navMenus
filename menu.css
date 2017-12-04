@@ -1,0 +1,97 @@
+
+/***************************************************
+Update ALL the named colours to create a monochromatic scheme
+Style the menus - one horizontally and one vertically
+Add the hover/active effects to your menu items
+***************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Lora', serif;
+    background-color: #7F7F7F;
+}
+html, body{
+    background-color: #7F7F7F;
+    font-family: 'Lora', serif;
+}
+h1{
+    font-size: 6.854rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 2rem;
+}
+h2{
+    font-size: 4.23rem;
+  font-family: 'Poppins', sans-serif;
+    padding: 1rem 2rem;
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #7B7F66;
+    color: #FFFFFF;
+}
+header{
+    border-bottom: 0.8rem solid #FFFFFF;
+    background-color: #C5CCA4;
+    color: #7F7F7F;
+}
+.menu-h{
+    width: 100%;
+}
+    .menu-h li{
+        display: block;
+        float: inherit;
+        list-style: none;
+        margin: 10px 0;
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+            display: contents;
+            padding: 10px;
+            float: left;
+        }
+    .menu-h a:hover, {
+        color: #7F7F7F;}
+        .menu-h a:active{
+            
+        }
+.menu-v{
+    width: 20%;
+    float: inherit;
+}
+    .menu-v li{
+        list-style: none;
+        display: contents;
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+            display: contents;
+        }
+    .menu-v a:hover,{
+        color: #FFFFFF;}
+        .menu-v a:active{
+            
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
